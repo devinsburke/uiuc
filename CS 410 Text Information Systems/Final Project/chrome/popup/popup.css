@@ -1,0 +1,19 @@
+html, body {
+    background-color: #fff;
+    font-size: 16px;
+    min-width: 550px;
+    margin: 0;
+}
+
+body {
+    overflow: scroll;
+    padding: 2.5em;
+}
+
+.loader {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/loader.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    height: 200px;
+}
